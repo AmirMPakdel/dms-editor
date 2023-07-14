@@ -1,0 +1,80 @@
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+
+#header{
+    position: relative;
+    box-sizing: border-box;
+    background-color: #3c3c3c;
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#change_cricle{
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: relative;
+    left: -20px;
+}
+
+#preview_btn{
+    position: relative;
+    box-sizing: border-box;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 2px white solid;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: monospace;
+    margin-right: 40px;
+}
+
+#save_btn{
+    position: relative;
+    box-sizing: border-box;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 2px white solid;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+#saved_message{
+    color: rgb(0, 187, 90);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: monospace;
+    margin-left: 40px;
+    display: none;
+}
+
+#container{
+    padding: 0;
+    margin: 0;
+    height: calc(100vh - 60px);
+    width: 100vw;
+}
